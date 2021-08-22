@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'cypress/base:12',
-      argscle '-u root:root'
+      image 'cypress/base:12'
+      args '-u root:root'
     }
   }
 
