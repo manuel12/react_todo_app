@@ -12,9 +12,7 @@ pipeline {
         sh "npm install"
       }
     }
-  }
 
-  stages {
     stage('Build and test') {
       steps {
         sh "build:and:test"
