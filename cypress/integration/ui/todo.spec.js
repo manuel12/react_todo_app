@@ -13,6 +13,7 @@ describe('Todo UI testing', () => {
       expect(xhr.request.body.name).to.eq('First todo')
     })
     cy.get('.todo-item').first().should('contain.text', 'First todo')
+    // Dummy comment
   })
 
   it('should be able to toggle the status of a todo correctly', () => {
