@@ -7,4 +7,4 @@ workflows:
     jobs:
       - cypress/run:
           executor: cypress/base-10
-          start: 'npm start'
+          start: 'npm run build:and:test'
