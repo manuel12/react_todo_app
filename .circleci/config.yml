@@ -6,4 +6,5 @@ workflows:
   build:
     jobs:
       - cypress/run:
+          executor: cypress/base-10
           start: 'npm start'
